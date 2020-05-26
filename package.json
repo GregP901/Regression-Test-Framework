@@ -1,0 +1,24 @@
+{
+  "name": "regression-test-framework",
+  "version": "1.0.0",
+  "description": "Regression tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cucumber-js.cmd"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregP901/Regression-Test-Framework.git"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregP901/Regression-Test-Framework/issues"
+  },
+  "homepage": "https://github.com/GregP901/Regression-Test-Framework#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
