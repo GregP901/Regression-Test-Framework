@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cucumber-js.cmd"
-  
+    "start": "cucumber-js.cmd ./Features -r ./Steps"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/GregP901/Regression-Test-Framework#readme",
   "devDependencies": {
     "cucumber": "^6.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.16.2"
   }
 }
